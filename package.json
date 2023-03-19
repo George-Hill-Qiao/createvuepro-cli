@@ -1,0 +1,25 @@
+{
+  "name": "createvuepro-cli",
+  "version": "1.0.0",
+  "description": "一个神奇的脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "createvuepro-clis": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wanan",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-shared-utils": "^5.0.8",
+    "commander": "^10.0.0",
+    "ejs": "^3.1.8",
+    "fs-extra": "^11.1.0",
+    "globby": "^11.0.2",
+    "inquirer": "^8.2.4",
+    "isbinaryfile": "^5.0.0",
+    "javascript-stringify": "^2.1.0"
+  }
+}
